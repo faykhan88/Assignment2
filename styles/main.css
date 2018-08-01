@@ -1,0 +1,111 @@
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-image:url(../images/bats.gif);
+	background-color: white;
+	max-width: 800px;
+	border: 1.000em solid black;
+    box-shadow: 2px 6px 12px 6px black;
+    margin: auto;	
+}
+
+header{
+	margin-bottom: 2px;
+	padding: .25%;
+	border-bottom: 1em solid black;
+	background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -moz-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -webkit-linear-gradient(45deg, white 0%, orange 75%, black 100%);
+	background-image: -ms-linear-gradient(45deg, white 0%, orange 75%, black 100%);	
+}
+
+/*Headings of header*/
+
+header h2 {
+	font-size: 55px;
+	text-indent: 4%;
+}
+header h3 {
+	font-size: 25px;
+	text-indent: 12%;
+}
+
+/* Header Image must float left so that headings display properly*/
+
+header img { 
+	float: left; 
+} 
+
+main{
+		padding: 2% 4% 2% 4%;
+		background-color:white;
+		float:right;
+}
+
+/* Headings of Main */
+main h1 { 
+	font-size: 150%;
+}
+main h1:first-letter { 
+	font-size: 42px;
+}
+main h2 {
+	font-size: 35px;
+}
+main h3 {
+	font-size: 25px;
+}
+
+/*Format links as instructions*/
+
+a {
+    font-weight: bold;
+    color: Orange;
+}
+a:link,  { 
+    color: orange; 
+}
+
+a:visited {
+	color: orange; 
+}
+
+a:hover { 
+    color: green;
+}
+
+a:focus {
+	color: green;
+}
+
+/*Format li element as instructions*/
+
+li {
+	padding: 12px;
+}
+
+nav {
+    list-style-position: inside;
+	height: 100%;
+    width: 160px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+	background-color:white;
+}
+
+
+/* Format footer font size and align it to center of window*/
+footer p {
+	font-size: 10px;
+	text-align: center;
+	border-top: 4px solid black;
+	background-image: linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	background-image: -moz-linear-gradient(45deg, black 0%, orange 75%, white 100%;);
+	background-image: -webkit-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	background-image: -ms-linear-gradient(45deg, black 0%, orange 75%, white 100%);
+	padding: 10px;
+	margin-bottom: 0%;
+	clear: both;
+}
